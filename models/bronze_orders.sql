@@ -1,3 +1,3 @@
 
 select * from 
-DBT_PROJECT_CATALOG.LANDING.ORDERS
+{{source('landing','orders')}}

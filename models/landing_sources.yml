@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: landing
+    database: DBT_PROJECT_CATALOG  
+    schema: LANDING  
+    tables:
+      - name: orders
+      - name: products
+      - name: reviews    
+      - name: users
+
+  
