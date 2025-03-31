@@ -1,0 +1,3 @@
+
+select * from 
+DBT_PROJECT_CATALOG.LANDING.ORDERS
