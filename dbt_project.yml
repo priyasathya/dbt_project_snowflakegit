@@ -45,5 +45,10 @@ models:
       +schema: silver
     gold_layer:
       +materialized: table
-      +schema: gold  
+      +schema: gold
+
+seeds:
+  my_new_project:
+    +schema: bronze
+  
     
