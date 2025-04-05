@@ -7,4 +7,5 @@ ean,
 vendor,
 price
 from
-{{ref("bronze_products")}}
+{{ref("products_snapshot")}}
+where dbt_valid_to is null
